@@ -7,7 +7,7 @@ Esse é um dos desafios práticos da formação Fullstack, um de nossos conteúd
 
 
 <p align="center">
-  <img alt="projeto DevLinks" src="assets/preview.png" width="100%">
+  <img alt="projeto local turistico" src="assets/preview.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
