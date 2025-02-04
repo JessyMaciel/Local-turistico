@@ -1,115 +1,128 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
 }
 
 :root {
     font-family: "Open Sans", sans-serif;
 }
-
 body {
     background-color: #F5F4F0;
-    display: inline-flex;
-    padding: 88px 80px 48px 80px;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 65px;
 }
 
- #page {
-    display: inline-flex;
-    padding: 88px 80px 48px 80px;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 65px;
-    }
+#page {
+    box-sizing: border-box;
+    margin: 88px auto 80px;
+    width: 1120px;
+    font-size: 16px;
+}
 
-
+h1{
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+h2 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+h3 {
+    margin-bottom: 4px;
+    /*margin-left: 8px;*/
+    font-size: 28px;
+}
+p {
+    margin-bottom: 64px;
+    color: #333333;
+}
 
 img {
     border-radius: 28px;
+    margin-bottom: 20px;
     
 }
-
 #headline {
     color: #E1624F;
-    font-size: 16px;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-#headline2 {
-    color: #E1624F;
-    font-size: 16px;
-    font-weight: 700;
-    text-transform: uppercase;
+    margin-bottom: 8px;
 }
 
-h1 + h2 {
-    color: #1B1B1B;
-    font-size: 36px;
-    font-weight: 700;
+h4 {
+    color: #E1624F;
+    margin-bottom:2px;
+    text-transform: uppercase;
 }
 
 h3 {
    color: #1B1B1B;
     font-size: 28px;
     font-weight: 700;
-    line-height: normal;
+    margin-left: 10px;
 }
 
-ol li {
-    color: #1B1B1B;
-    font-size: 28px;
-    font-weight: 700;
-    line-height: normal;
+ul {
+    list-style-type: disc;
+    margin-top: 3px;
 }
 
 .blue {
     color: #0C51A7;
+    font-weight: bold;
 }
 .purple {
     color: #591B98;
+    font-weight: bold;
 }
 .pink {
     color: #E5245E;
+    font-weight: bold;
 }
 .orange {
     color:#E95E10;
+    font-weight: bold;
 }
 
-ul li::marker {
+ul ::marker {
     color:#333;
+    font-weight: bold;
 }
 
-
-aside {
-    color:#333;
-    font-style: italic;
-    font-size: 16px;
-    font-weight: 400;
-    height: 37px;
-    align-self: stretch;
-}
 
 p {
-    color: ##333;
-    font-size: 16px;
-    font-weight: 400;
-    align-self: stretch;
+    margin-bottom: 48px;
+    color: #333333;
+}
+.paragraph {
+    margin-bottom: 64px;
 }
 
-aside2 {
-    color: #333;
+#aside {
     text-align: center;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: normal;
+}
+
+#description {
+    margin-bottom: 4px;
+    text-align: center;
+    font-style: italic;
+}
+
+#card {
+    font-weight: bold;
+    margin-top: -20px;
 }
 
 .divider {
-    width: 1120px;
+    width: 100%;
     height: 1px;
-    background: var(--border-primary, #D9D9D9);
+    background: #D9D9D9;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.last {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 65px;
+     padding-bottom: 48px;
+}
+#heart {
+    margin-bottom: 0px;
 }
